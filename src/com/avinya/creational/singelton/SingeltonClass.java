@@ -2,7 +2,7 @@ package com.avinya.creational.singelton;
 
 public class SingeltonClass {
 
-	private static SingeltonClass singletonInstance = new SingeltonClass();
+	private static SingeltonClass singletonInstance = new SingeltonClass(); //Eager loading the object
 
 	private SingeltonClass() {
 
